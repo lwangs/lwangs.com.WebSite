@@ -1,0 +1,218 @@
+﻿
+body, html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    color: #D5D6E2;
+    font-weight: 500;
+    font-size: 1.05em;
+    font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+    a:hover, a:focus {
+        color: #74777b;
+        text-decoration: none;
+    }
+
+.speechMainContainer {
+    background: url('../images/bg-home.jpg') no-repeat center center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+}
+
+    .speechMainContainer .sitenav {
+        width: 65%;
+        height: 60%;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        margin: auto;
+        padding: 0px; 
+    }
+
+        .speechMainContainer .sitenav li {
+            cursor: default;
+            position: relative;
+            text-align: center;
+            width: 45%;
+            height: 29%;
+            color: #ffffff;
+            list-style: none;
+            border-radius: 10px;
+            margin: 3% 2%;
+        }
+            .speechMainContainer .sitenav li i {
+                font-size: 50px;
+                margin: 15% 0 0;
+            }
+            .speechMainContainer .sitenav li p {
+                font-size: 16px; 
+                font-weight: 600;
+            }
+
+            .speechMainContainer .sitenav li.floatLeft {
+                float: left;
+            }
+
+            .speechMainContainer .sitenav li.floatRight {
+                float: right;
+            }
+
+            .speechMainContainer .sitenav li.color1 {
+                background-color: #00b6de
+            }
+
+            .speechMainContainer .sitenav li.color2 {
+                background-color: #9e7ac2
+            }
+
+            .speechMainContainer .sitenav li.color3 {
+                background-color: #ff7659
+            }
+
+            .speechMainContainer .sitenav li.color4 {
+                background-color: #f8cd36
+            }
+
+            .speechMainContainer .sitenav li.color5 {
+                background-color: #db993a
+            }
+
+            .speechMainContainer .sitenav li.color6 {
+                background-color: #5ca7df
+            }
+
+.tiprevolvephone {
+    display: none;
+    background: url('../images/revolvephone.gif') no-repeat center center;
+    background-color: #fff;
+    position: fixed;
+    z-index: 100000;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    background-size: 45%
+}
+
+    .tiprevolvephone .tips {
+        position: fixed;
+        z-index: 100;
+        color: #03a7e4;
+        bottom: 30%;
+        text-align: center;
+        width: 100%;
+        font-size: 22px;
+    }
+
+.topDefaultShade {
+    width: 100%;
+    height: 100%;
+    background-color: #c3c3c3;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.6;
+    display: none;
+}
+
+.itemByStudyWords {
+    display: none;
+    width: 75%;
+    margin: auto;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    height: 70%;
+    position: fixed;
+    z-index: 200;
+    color: #000;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+    .itemByStudyWords .itemTitle {
+        color: #584559;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+    .itemByStudyWords .selectSubject {
+        padding: 0px;
+        height: 83%;
+        width: 96%;
+        margin: 0 auto;
+        margin-top: 5px;
+        border: 1px solid red;
+    }
+
+        .itemByStudyWords .selectSubject li {
+            list-style: none;
+            height: 80px;
+            width: 90%;
+            float: left;
+            border: 1px solid #ccc;
+            margin: 5px;
+            text-align: center;
+            border-radius: 5px;
+            border-top: 0px;
+            padding: 0px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+            position: absolute;
+            margin-bottom:10px;
+        }
+
+            .itemByStudyWords .selectSubject li .subjectImages {
+                width: 80px;
+                float: left;
+                height: 100%;
+            }
+
+                .itemByStudyWords .selectSubject li .subjectImages img {
+                    width: 100%;
+                }
+
+            .itemByStudyWords .selectSubject li .subjectDetailMsg {
+                float: left;
+            }
+
+                .itemByStudyWords .selectSubject li .subjectDetailMsg .title {
+                    font-size: 10px;
+                    color: #000000;
+                    font-weight: 500;
+                }
+
+
+
+

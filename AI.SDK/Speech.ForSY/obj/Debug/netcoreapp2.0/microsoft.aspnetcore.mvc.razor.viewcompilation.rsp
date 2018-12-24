@@ -1,0 +1,7 @@
+E:\代码文件\Baidu语音识别\AI.SDK\Speech.ForSY
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=Speech.ForSY
+--content-root=E:\代码文件\Baidu语音识别\AI.SDK\Speech.ForSY
+--file=E:\代码文件\Baidu语音识别\AI.SDK\Speech.ForSY\Views\Shared\_Layout.cshtml
+--file=E:\代码文件\Baidu语音识别\AI.SDK\Speech.ForSY\Views\Speech\Index.cshtml
+--file=E:\代码文件\Baidu语音识别\AI.SDK\Speech.ForSY\Views\Speech\StudyWords.cshtml

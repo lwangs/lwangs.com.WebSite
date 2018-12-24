@@ -1,0 +1,17 @@
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\hostpolicy.dll
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\hostfxr.dll
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.exe
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.deps.json
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.runtimeconfig.json
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.runtimeconfig.dev.json
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.dll
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.pdb
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.Service.dll
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\bin\Release\netcoreapp2.0\win-x64\Speech.ForSY.Service.pdb
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.csprojAssemblyReference.cache
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.csproj.CoreCompileInputs.cache
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.AssemblyInfoInputs.cache
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.AssemblyInfo.cs
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.csproj.CopyComplete
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.dll
+E:\代码\Baidu语音识别\AI.SDK\Speech.ForSY\obj\Release\netcoreapp2.0\win-x64\Speech.ForSY.pdb

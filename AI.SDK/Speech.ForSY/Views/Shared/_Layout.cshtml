@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+
+    <!-- 设置Web应用是否以全屏模式运行 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <!-- 设置状态栏（屏幕顶部栏）的样式，default为白色，black为黑色，black-translucent为透明 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="~/resource/images/iphone_deskImg.jpg" />
+    <meta name="screen-orientation" content="landscape">
+    <meta name="apple-mobile-web-app-title" content="叮当学英语">
+    @*  <link rel="apple-touch-startup-image" href="start.png" />*@
+
+    <title>@ViewData["Title"] - 叮当学英语</title>
+
+    <script src="~/resource/js/jquery.1.11.3.min.js"></script>
+    <script src="~/resource/js/publicLibrary.js"></script>
+
+    <link href="~/resource/css/layout.css" rel="stylesheet" />
+    <link href="~/resource/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    @RenderBody()
+
+    @RenderSection("Scripts", required: false)
+
+    @*<div class="tiprevolvephone"><div class="tips">请将手机旋转90度</div></div>*@
+
+    @* 解决在苹果浏览器中 出现多选栏目 左右滑动现象 *@
+    <div class="topDefaultShade" id="disablePageSlide"></div>
+
+</body>
+</html>

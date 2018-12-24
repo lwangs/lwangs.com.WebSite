@@ -1,0 +1,221 @@
+﻿
+body, html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    color: #D5D6E2;
+    font-weight: 500;
+    font-size: 1.05em;
+    font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+    a:hover, a:focus {
+        color: #74777b;
+        text-decoration: none;
+    }
+
+.speechMainContainer {
+    background: url('../images/food.png') repeat;
+    position: fixed;
+    width:100%;
+    height:100%;
+}
+
+
+
+
+
+.speechMainContainer .sitenav {
+    width: 80%;
+    height: 65%;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding: 0px;
+}
+
+    .speechMainContainer .sitenav li i {
+        font-size: 50px;
+        margin: 20% 0 0;
+    }
+
+    .speechMainContainer .sitenav li p {
+        font-size: 14px;
+        text-align: center;
+        bottom: 10px;
+    }
+
+    .speechMainContainer .sitenav li {
+        cursor: default;
+        position: relative;
+        text-align: center;
+        vertical-align: central;
+        width: 22.1%;
+        height: 47.5%;
+        color: #ffffff;
+        float: left;
+        list-style: none;
+        border-radius: 10px;
+    }
+
+        .speechMainContainer .sitenav li.marginleft2percent {
+            margin-left: 2%
+        }
+
+        .speechMainContainer .sitenav li.colspan2 {
+            width: 46%;
+        }
+
+            .speechMainContainer .sitenav li.colspan2 i {
+                margin: 10% 0 0;
+            }
+
+        .speechMainContainer .sitenav li.firstrow {
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+
+        .speechMainContainer .sitenav li.secondrow {
+            margin-right: 2%
+        }
+
+        .speechMainContainer .sitenav li.color1 {
+            background-color: #00b6de
+        }
+
+        .speechMainContainer .sitenav li.color2 {
+            background-color: #9e7ac2
+        }
+
+        .speechMainContainer .sitenav li.color3 {
+            background-color: #ff7659
+        }
+
+        .speechMainContainer .sitenav li.color4 {
+            background-color: #f8cd36
+        }
+
+        .speechMainContainer .sitenav li.color5 {
+            background-color: #db993a
+        }
+
+        .speechMainContainer .sitenav li.color6 {
+            background-color: #5ca7df
+        }
+
+
+.btnClose {
+    background: url('../images/btn_close.png') no-repeat center center;
+    width:25px;
+    height:25px;
+
+}
+
+.tiprevolvephone {
+    display: none;
+    background: url('../images/revolvephone.gif') no-repeat center center;
+    background-color: #fff;
+    position: fixed;
+    z-index: 100000;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    background-size: 45%
+}
+
+    .tiprevolvephone .tips {
+        position: fixed;
+        z-index: 100;
+        color: #03a7e4;
+        bottom: 30%;
+        text-align: center;
+        width: 100%;
+        font-size: 22px;
+    }
+
+.topDefaultShade {
+    width: 100%;
+    height: 100%;
+    background-color: #c3c3c3;
+    position: fixed;
+    z-index: 100;
+    opacity:0.6;
+    display: none;
+}
+
+.itemByStudyWords {
+    display: none;
+    right: 0px;
+    left: 0px;
+    width: 50%;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    margin-top: 3%;
+    height: 90%;
+    position: fixed;
+    z-index: 200;
+    color: #000;
+}
+.itemByStudyWords .itemTitle {
+    color: #584559;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #f5f5f5;
+}
+    .itemByStudyWords .selectSubject {
+        padding: 0px;
+        overflow-y: scroll;
+        height: 83%;
+        width: 96%;
+        margin: 0 auto;
+        margin-top:5px;
+    }
+
+        .itemByStudyWords .selectSubject li {
+            list-style: none;
+            height: 130px;
+            width: 105px;
+            float: left;
+            border: 1px solid #ccc;
+            margin: 5px;
+            text-align: center;
+            border-radius: 5px;
+            border-top: 0px;
+        }
+
+            .itemByStudyWords .selectSubject li .subjectImages {
+                margin:0px auto;
+            }
+                .itemByStudyWords .selectSubject li .subjectImages img {
+                    width: 100%;
+                }
+            .itemByStudyWords .selectSubject li .subjectDetailMsg {
+                margin-top: -5px;
+            }
+            .itemByStudyWords .selectSubject li .subjectDetailMsg .title {
+                font-size: 10px;
+                color: #000000;
+                font-weight: 500;
+            } 

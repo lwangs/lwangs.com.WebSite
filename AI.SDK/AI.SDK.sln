@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech.ForSY", "Speech.ForSY\Speech.ForSY.csproj", "{4C9CE502-D94C-4BFA-B2D0-BBE470B548FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{BBF0D43D-5EE2-4FB4-992C-6894913134EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A500409A-801B-44B3-AC5C-4F815D7FC15A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Speech.ForSY", "Speech.ForSY", "{4E7659AD-C21E-4FF2-9028-F14F04471E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech.ForSY.Service", "SDK\Speech.ForSY\Speech.ForSY.Service\Speech.ForSY.Service.csproj", "{77B3CF00-ADB3-4A64-9FF4-A7182339F895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9CE502-D94C-4BFA-B2D0-BBE470B548FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9CE502-D94C-4BFA-B2D0-BBE470B548FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9CE502-D94C-4BFA-B2D0-BBE470B548FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9CE502-D94C-4BFA-B2D0-BBE470B548FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B3CF00-ADB3-4A64-9FF4-A7182339F895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B3CF00-ADB3-4A64-9FF4-A7182339F895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B3CF00-ADB3-4A64-9FF4-A7182339F895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B3CF00-ADB3-4A64-9FF4-A7182339F895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E7659AD-C21E-4FF2-9028-F14F04471E8C} = {BBF0D43D-5EE2-4FB4-992C-6894913134EA}
+		{77B3CF00-ADB3-4A64-9FF4-A7182339F895} = {4E7659AD-C21E-4FF2-9028-F14F04471E8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18BC4E09-6C33-41D8-B335-9577EB634B2C}
+	EndGlobalSection
+EndGlobal

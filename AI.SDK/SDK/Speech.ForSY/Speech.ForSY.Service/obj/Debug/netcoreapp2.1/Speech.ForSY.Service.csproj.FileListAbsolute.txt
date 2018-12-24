@@ -1,0 +1,9 @@
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\bin\Debug\netcoreapp2.1\Speech.ForSY.Service.deps.json
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\bin\Debug\netcoreapp2.1\Speech.ForSY.Service.dll
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\bin\Debug\netcoreapp2.1\Speech.ForSY.Service.pdb
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\obj\Debug\netcoreapp2.1\Speech.ForSY.Service.csprojAssemblyReference.cache
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\obj\Debug\netcoreapp2.1\Speech.ForSY.Service.csproj.CoreCompileInputs.cache
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\obj\Debug\netcoreapp2.1\Speech.ForSY.Service.AssemblyInfoInputs.cache
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\obj\Debug\netcoreapp2.1\Speech.ForSY.Service.AssemblyInfo.cs
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\obj\Debug\netcoreapp2.1\Speech.ForSY.Service.dll
+C:\Users\lwangs.com\Desktop\Baidu语音识别\AI.SDK\SDK\Speech.ForSY\Speech.ForSY.Service\obj\Debug\netcoreapp2.1\Speech.ForSY.Service.pdb

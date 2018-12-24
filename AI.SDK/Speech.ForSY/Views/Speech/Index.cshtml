@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    $(function () {
+        $("#btnOpenStudyWords").click(function () {
+            $(".topDefaultShade").css("display", "block");
+            $(".itemByStudyWords").css("display", "block");
+        });
+    });
+</script>
+
+
+<div class="speechMainContainer" id="speechMainContainer">
+
+    <ul class="sitenav">
+        <li class="color1 floatLeft" id="btnOpenStudyWords"><i class="fa fa-line-chart"></i><p>学单词</p></li>
+        <li class="color2 floatRight"><i class="fa fa-random"></i><p>随机练习</p></li>
+
+        <li class="color3 floatLeft"><i class="fa fa-pencil"></i><p>模拟考试</p></li>
+        <li class="color4 floatRight"><i class="fa fa-times"></i><p>错题本</p></li>
+
+        <li class="color5 floatLeft"><i class="fa fa-trophy"></i><p>你说我翻译</p></li>
+        <li class="color6 floatRight"><i class="fa fa-cogs"></i><p>系统维护</p></li>
+    </ul>
+
+</div>
+
+
+<div class="itemByStudyWords">
+    <div class="itemTitle">选择类别</div>
+    <ul class="selectSubject">
+        <li>
+            <div class="subjectImages">
+                <img src="~/resource/images/number-ico.jpg" />
+            </div>
+            <div class="subjectDetailMsg">
+                <span class="title">数字(number)</span>
+            </div>
+        </li>
+
+        @*<li>
+            <div class="subjectImages">
+                <img src="~/resource/images/animal-ico.jpg" />
+            </div>
+            <div class="subjectDetailMsg">
+                <span class="title">动物(animals)</span>
+            </div>
+        </li>
+        <li>
+            <div class="subjectImages">
+                <img src="~/resource/images/color-ico.jpg" />
+            </div>
+            <div class="subjectDetailMsg">
+                <span class="title">颜色(color)</span>
+            </div>
+        </li>
+        <li>
+            <div class="subjectImages">
+                <img src="~/resource/images/animal-ico.jpg" />
+            </div>
+            <div class="subjectDetailMsg">
+                <span class="title">身体部位(body)</span>
+            </div>
+        </li>
+        <li>
+            <div class="subjectImages">
+                <img src="~/resource/images/animal-ico.jpg" />
+            </div>
+            <div class="subjectDetailMsg">
+                <span class="title">学习工具(tools)</span>
+            </div>
+        </li>
+        <li>
+            <div class="subjectImages">
+                <img src="~/resource/images/family-ico.jpg" />
+            </div>
+            <div class="subjectDetailMsg">
+                <span class="title">家庭人员(family)</span>
+            </div>
+        </li>*@
+
+    </ul>
+</div>
+
