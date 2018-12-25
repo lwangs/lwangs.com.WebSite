@@ -54,3 +54,17 @@ E:\代码文件\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.Assembl
 E:\代码文件\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.csproj.CopyComplete
 E:\代码文件\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.dll
 E:\代码文件\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.pdb
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.deps.json
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.runtimeconfig.json
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.runtimeconfig.dev.json
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.dll
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.pdb
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.Service.dll
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\bin\Debug\netcoreapp2.0\Speech.ForSY.Service.pdb
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.csprojAssemblyReference.cache
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.csproj.CoreCompileInputs.cache
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.AssemblyInfoInputs.cache
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.AssemblyInfo.cs
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.csproj.CopyComplete
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.dll
+D:\Coding\lwangs.com.WebSite\AI.SDK\Speech.ForSY\obj\Debug\netcoreapp2.0\Speech.ForSY.pdb

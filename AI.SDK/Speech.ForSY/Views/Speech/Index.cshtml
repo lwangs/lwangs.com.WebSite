@@ -10,6 +10,10 @@
             $(".topDefaultShade").css("display", "block");
             $(".itemByStudyWords").css("display", "block");
         });
+
+        $("#btnOpenToSubject li").click(function () { 
+            window.location.href = "/Speech/StudyWords?type=" + $(this).attr("data-StudyType");
+        });;
     });
 </script>
 
@@ -32,56 +36,61 @@
 
 <div class="itemByStudyWords">
     <div class="itemTitle">选择类别</div>
-    <ul class="selectSubject">
-        <li>
+    <ul id="btnOpenToSubject" class="selectSubject">
+        <li data-StudyType="studyNumber">
             <div class="subjectImages">
                 <img src="~/resource/images/number-ico.jpg" />
             </div>
             <div class="subjectDetailMsg">
-                <span class="title">数字(number)</span>
+                <p class="title">数字(number)</p>
+                <p class="describe ">阿拉伯数字、中英文转换发音练习...</p>
             </div>
         </li>
-
-        @*<li>
+        <li data-StudyType="studyAnimals">
             <div class="subjectImages">
                 <img src="~/resource/images/animal-ico.jpg" />
             </div>
             <div class="subjectDetailMsg">
-                <span class="title">动物(animals)</span>
+                <p class="title">动物(animals)</p>
+                <p class="describe ">阿拉伯数字、中英文转换发音练习...</p>
             </div>
         </li>
-        <li>
+        <li data-StudyType="studyColor">
             <div class="subjectImages">
                 <img src="~/resource/images/color-ico.jpg" />
             </div>
             <div class="subjectDetailMsg">
-                <span class="title">颜色(color)</span>
+                <p class="title">颜色(color)</p>
+                <p class="describe ">阿拉伯数字、中英文转换发音练习...</p>
             </div>
         </li>
-        <li>
+        <li data-StudyType="studyBody">
             <div class="subjectImages">
                 <img src="~/resource/images/animal-ico.jpg" />
             </div>
             <div class="subjectDetailMsg">
-                <span class="title">身体部位(body)</span>
+                <p class="title">身体部位(body)</p>
+                <p class="describe ">阿拉伯数字、中英文转换发音练习...</p>
             </div>
         </li>
-        <li>
+        <li data-StudyType="studyTools">
             <div class="subjectImages">
                 <img src="~/resource/images/animal-ico.jpg" />
             </div>
             <div class="subjectDetailMsg">
-                <span class="title">学习工具(tools)</span>
+                <p class="title">学习工具(tools)</p>
+                <p class="describe ">阿拉伯数字、中英文转换发音练习...</p>
             </div>
         </li>
-        <li>
+        <li data-StudyType="studyFamily">
             <div class="subjectImages">
                 <img src="~/resource/images/family-ico.jpg" />
             </div>
             <div class="subjectDetailMsg">
-                <span class="title">家庭人员(family)</span>
+                <p class="title">家庭人员(family)</p>
+                <p class="describe ">阿拉伯数字、中英文转换发音练习...</p>
             </div>
-        </li>*@
+        </li>
 
     </ul>
 </div>

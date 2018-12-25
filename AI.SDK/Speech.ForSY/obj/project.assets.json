@@ -13678,11 +13678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\代码文件\\AI.SDK\\Speech.ForSY\\Speech.ForSY.csproj",
+      "projectUniqueName": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\Speech.ForSY\\Speech.ForSY.csproj",
       "projectName": "Speech.ForSY",
-      "projectPath": "E:\\代码文件\\AI.SDK\\Speech.ForSY\\Speech.ForSY.csproj",
+      "projectPath": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\Speech.ForSY\\Speech.ForSY.csproj",
       "packagesPath": "C:\\Users\\lwangs.com\\.nuget\\packages\\",
-      "outputPath": "E:\\代码文件\\AI.SDK\\Speech.ForSY\\obj\\",
+      "outputPath": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\Speech.ForSY\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13701,8 +13701,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\代码文件\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj": {
-              "projectPath": "E:\\代码文件\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj"
+            "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj": {
+              "projectPath": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj"
             }
           }
         }

@@ -3654,11 +3654,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\代码文件\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj",
+      "projectUniqueName": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj",
       "projectName": "Speech.ForSY.Service",
-      "projectPath": "E:\\代码文件\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj",
+      "projectPath": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\Speech.ForSY.Service.csproj",
       "packagesPath": "C:\\Users\\lwangs.com\\.nuget\\packages\\",
-      "outputPath": "E:\\代码文件\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\obj\\",
+      "outputPath": "D:\\Coding\\lwangs.com.WebSite\\AI.SDK\\SDK\\Speech.ForSY\\Speech.ForSY.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

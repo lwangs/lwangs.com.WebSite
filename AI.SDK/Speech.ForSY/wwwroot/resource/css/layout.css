@@ -52,7 +52,7 @@ a {
         right: 0px;
         bottom: 0px;
         margin: auto;
-        padding: 0px; 
+        padding: 0px;
     }
 
         .speechMainContainer .sitenav li {
@@ -66,12 +66,14 @@ a {
             border-radius: 10px;
             margin: 3% 2%;
         }
+
             .speechMainContainer .sitenav li i {
                 font-size: 50px;
                 margin: 15% 0 0;
             }
+
             .speechMainContainer .sitenav li p {
-                font-size: 16px; 
+                font-size: 16px;
                 font-weight: 600;
             }
 
@@ -168,51 +170,124 @@ a {
 
     .itemByStudyWords .selectSubject {
         padding: 0px;
-        height: 83%;
-        width: 96%;
+        height: 88%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 5px;
-        border: 1px solid red;
     }
 
         .itemByStudyWords .selectSubject li {
             list-style: none;
-            height: 80px;
-            width: 90%;
+            height: 65px;
+            width: 100%;
             float: left;
-            border: 1px solid #ccc;
-            margin: 5px;
+            border-bottom: 1px solid #ccc;
             text-align: center;
-            border-radius: 5px;
-            border-top: 0px;
-            padding: 0px;
-            left: 0px;
-            right: 0px;
-            margin: auto;
-            position: absolute;
-            margin-bottom:10px;
+            margin-bottom: 10px;
+            padding-left: 5px;
         }
 
             .itemByStudyWords .selectSubject li .subjectImages {
-                width: 80px;
+                width: 60px;
                 float: left;
                 height: 100%;
             }
 
                 .itemByStudyWords .selectSubject li .subjectImages img {
                     width: 100%;
+                    border-radius: 5px;
                 }
 
             .itemByStudyWords .selectSubject li .subjectDetailMsg {
                 float: left;
+                max-width: 200px;
+                text-align: left;
             }
 
                 .itemByStudyWords .selectSubject li .subjectDetailMsg .title {
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 600;
+                    margin: 5px 0px 0px 10px;
+                }
+
+                .itemByStudyWords .selectSubject li .subjectDetailMsg .describe {
                     font-size: 10px;
                     color: #000000;
-                    font-weight: 500;
+                    display: block;
+                    margin: 10px 0px 0px 10px;
                 }
 
 
 
 
+
+.studyWords {
+    background: url('../images/bg-study.gif') no-repeat center center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+}
+
+    .studyWords ul {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+     
+.studyWords ul li {
+    list-style: none;
+}
+    .studyWords ul li.leftItemSubject {
+        width: 25.5%;
+        float: left;
+        height: 100%;
+    }
+
+    .studyWords ul li.centerTranslates {
+        width: 50.5%;
+        float: left;
+        height: 100%;
+        position: relative;
+    }
+
+        .studyWords ul li.centerTranslates .translatesContainer {
+            margin: auto;
+            width: 100%;
+            height: 50%; 
+            position: absolute;
+            bottom: 0px;
+            top: 0px;
+            right: 0px;
+            left: 0px; 
+            text-align: center;
+            line-height:700%;
+        }
+
+            .studyWords ul li.centerTranslates .translatesContainer .englishValue {
+                font-weight: 600;
+                font-size: 80px;
+                color: #000000;
+                background: linear-gradient(to right, #ffe0e2, #e82d8d);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            .studyWords ul li.centerTranslates .translatesContainer .chinessValue {
+                font-weight: 600;
+                font-size: 18px;
+                color: #2f2c2c;
+            }
+            .studyWords ul li.rightControlButton {
+    width: 24%;
+    float: left;
+    height: 100%;
+}

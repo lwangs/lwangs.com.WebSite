@@ -1,18 +1,19 @@
 ﻿
 @{
-    ViewData["Title"] = "StudyWords"; 
+    ViewData["Title"] = "StudyWords";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div style="
-  background:url('../../resource/images/bg-home.jpg') no-repeat center center;
-  top: 0;
-  left: 0;
-  width:100%;
-  height:100%; 
-  z-index:-10;
-  zoom: 1;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: cover; 
-  -o-background-size: cover;   ">
-     
+
+<div class="studyWords">
+    <ul>
+        <li class="leftItemSubject"></li>
+        <li class="centerTranslates"> 
+            <div class="translatesContainer"> 
+                <div class="englishValue">One</div> 
+                <div class="chinessValue">阿拉伯数字：《 1 》、 大写《 一 》</div> 
+            </div>
+        </li>
+        <li class="rightControlButton"></li>
+    </ul>
+
 </div>
