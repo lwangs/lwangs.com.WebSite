@@ -17,4 +17,8 @@
     <ProjectReference Include="..\SDK\Speech.ForSY\Speech.ForSY.Service\Speech.ForSY.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\audio\" />
+  </ItemGroup>
+
 </Project>

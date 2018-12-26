@@ -17,7 +17,12 @@ namespace Speech.ForSY.Controllers
 
 
         public IActionResult StudyWords()
-        { 
+        {
+            SpeechTtsService.SpeechSynthesis("111111111", "小叮当。 这个单词读：One。。。。One。。。。One。。。。  中文解释:一个、第一。。。  你学会了吗?");
+
+
+
+
             return View();
         }
 

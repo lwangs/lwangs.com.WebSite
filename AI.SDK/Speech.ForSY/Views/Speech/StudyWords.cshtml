@@ -3,14 +3,21 @@
     ViewData["Title"] = "StudyWords";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<script src="~/resource/js/studyWords.js"></script>
+
+
+
+
+<audio src="~/audio/111111111.mp3" controls="controls" id="btnPlayAudio" hidden></audio>
 
 <div class="studyWords">
     <ul>
         <li class="leftItemSubject"></li>
-        <li class="centerTranslates"> 
-            <div class="translatesContainer"> 
-                <div class="englishValue">One</div> 
-                <div class="chinessValue">阿拉伯数字：《 1 》、 大写《 一 》</div> 
+        <li class="centerTranslates">
+            <div class="translatesContainer">
+                <div class="englishValue" id="btn_ReadEnglish">One</div>
+                <div class="phoneticSymbol">英[wʌn]; 美[wʌn]</div>
+                <div class="chinessValue">一个、第一</div>
             </div>
         </li>
         <li class="rightControlButton"></li>

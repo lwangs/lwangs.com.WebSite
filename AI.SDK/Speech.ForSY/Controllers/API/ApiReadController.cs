@@ -13,11 +13,15 @@ namespace Speech.ForSY.Controllers.API
     public class ApiReadController : Controller
     {
 
-        public JsonResult readContent()
+        public JsonResult readContent(string readEnglisID)
         {
 
 
-            SpeechTtsService.SpeechSynthesis();
+
+           
+
+
+
             return Json(null);
         }
 

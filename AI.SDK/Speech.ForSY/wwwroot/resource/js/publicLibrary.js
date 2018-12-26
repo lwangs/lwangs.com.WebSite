@@ -45,6 +45,7 @@ function setVisitorOnDeskSystem() {
     } 
 }
 
+
 $(function () {
     //if (window.orientation == 0) {
     //    $(".tiprevolvephone").css("display", "block");

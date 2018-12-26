@@ -263,23 +263,28 @@ a {
         .studyWords ul li.centerTranslates .translatesContainer {
             margin: auto;
             width: 100%;
-            height: 50%; 
+            height: 60%; 
             position: absolute;
             bottom: 0px;
             top: 0px;
             right: 0px;
             left: 0px; 
-            text-align: center;
-            line-height:700%;
+            text-align: center; 
         }
 
             .studyWords ul li.centerTranslates .translatesContainer .englishValue {
                 font-weight: 600;
-                font-size: 80px;
+                font-size: 110px;
                 color: #000000;
                 background: linear-gradient(to right, #ffe0e2, #e82d8d);
                 -webkit-background-clip: text;
                 color: transparent;
+            }
+            .studyWords ul li.centerTranslates .translatesContainer .phoneticSymbol {
+                font-size: 18px;
+                font-weight: 500;
+                color: #2f2c2c;
+                margin: 10px 0px 20px 0px;
             }
             .studyWords ul li.centerTranslates .translatesContainer .chinessValue {
                 font-weight: 600;
