@@ -1,7 +1,10 @@
-﻿
+﻿@using Speech.ForSY.Model;
+@using System.Web;
 @{
     ViewData["Title"] = "StudyWords";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    List<EnglishWordsModel> englishWords = ViewBag.allEnglishWordsByCatagory as List<EnglishWordsModel>;
 }
 <script src="~/resource/js/studyWords.js"></script>
 
@@ -14,13 +17,20 @@
     <ul>
         <li class="leftItemSubject"></li>
         <li class="centerTranslates">
-            <div class="translatesContainer">
-                <div class="englishValue" id="btn_ReadEnglish">One</div>
-                <div class="phoneticSymbol">英[wʌn]; 美[wʌn]</div>
-                <div class="chinessValue">一个、第一</div>
-            </div>
+            @{
+                foreach (EnglishWordsModel model in englishWords)
+                {
+                    <div class="translatesContainer" data-orderBy="@(model.OrderBy)">
+                        <div class="englishValue" data-ID="@(model.ID)" data-english="@(model.English)" data-chiness="@(model.Chiness)">@(model.English)</div>
+                        <div class="phoneticSymbol">@HttpUtility.UrlDecode(model.PhoneticSymbol)</div>
+                        <div class="chinessValue">@(model.Chiness)</div>
+                    </div>
+                }
+            }
         </li>
-        <li class="rightControlButton"></li>
+        <li class="rightControlButton">
+            <button id="btn_Next" style="width: 130px;height: 40px;margin-top: 20px; margin-left: 20px;">下一个</button>
+        </li>
     </ul>
 
 </div>

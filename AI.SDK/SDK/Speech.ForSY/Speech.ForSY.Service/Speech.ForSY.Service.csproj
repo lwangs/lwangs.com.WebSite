@@ -6,6 +6,12 @@
 
   <ItemGroup>
     <PackageReference Include="Baidu.AI" Version="3.6.6" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Speech.ForSY.Model\Speech.ForSY.Model.csproj" />
   </ItemGroup>
 
 </Project>

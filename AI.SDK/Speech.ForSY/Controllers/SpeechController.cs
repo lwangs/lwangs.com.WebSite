@@ -2,27 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using Speech.ForSY.Model.filter;
 using Speech.ForSY.Service;
+using Speech.ForSY.Service.ThirdService;
 
 namespace Speech.ForSY.Controllers
 {
     public class SpeechController : Controller
     {
         public IActionResult Index()
-        {
-           
+        { 
             return View();
         }
 
 
-        public IActionResult StudyWords()
+        public IActionResult StudyWords(string catagoryID)
         {
-            SpeechTtsService.SpeechSynthesis("111111111", "小叮当。 这个单词读：One。。。。One。。。。One。。。。  中文解释:一个、第一。。。  你学会了吗?");
-
-
-
-
+            catagoryID = "50E36017-EE0B-41D3-B88E-1708693288BE";
+            var getEnglishByCatagory = EnglishWordsService.GetEnglishWorlds(new EnglishWordSearch { CatagoryID = catagoryID });
+            ViewBag.allEnglishWordsByCatagory = getEnglishByCatagory;
             return View();
         }
 

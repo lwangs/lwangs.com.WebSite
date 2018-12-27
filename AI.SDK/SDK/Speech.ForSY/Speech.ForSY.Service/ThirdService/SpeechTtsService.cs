@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Speech.ForSY.Service
+namespace Speech.ForSY.Service.ThirdService
 {
     public class SpeechTtsService
     {
@@ -28,8 +28,8 @@ namespace Speech.ForSY.Service
                 var option = new Dictionary<string, object>()
                 {
                     {"spd", 3}, // 语速
-                    {"vol", 6}, // 音量
-                    {"pit", 9}, // 音调
+                    {"vol", 13}, // 音量
+                    {"pit", 4}, // 音调
                     {"per", 0}  // 发音人，4：情感度丫丫童声
                 };
 
@@ -42,7 +42,7 @@ namespace Speech.ForSY.Service
                 }
             }
             catch (Exception)
-            { 
+            {
                 throw;
             }
 
